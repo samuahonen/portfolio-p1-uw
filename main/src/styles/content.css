@@ -1,5 +1,59 @@
-.content-main {
-    height: 100vh;
+.content-all {
+    height: 70vh;
     background-color: #212529;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.content-all-text {
+   
+    position: relative;
+    top: 50%;
+   
+    
+    
+}
+
+.content-main {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+
+
+.content-text {
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    background-color: #212529;
+    color: white;
+    width: 40px;
+}
+
+.content-header {
+    text-align: center;
+}
+
+.content-image {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    opacity: 0.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content-button {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .content-all {
+        
+    }
+  }

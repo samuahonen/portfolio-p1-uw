@@ -1,5 +1,11 @@
 
-$primary: #9a8c98;
+$theme-colors: (
+    "card1": #f3722c,
+    "card2": #277da1,
+    "card3": #f9c74f,
+    "alert1": #f94144,
+    "alert2": #43aa8b
+);
 
 
 @import "~bootstrap/scss/bootstrap";

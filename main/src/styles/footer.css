@@ -1,0 +1,23 @@
+.footer-all {
+    background-color: #212529;
+    color: white;
+    padding: 5px;
+}
+
+.footer-form {
+    width: 200px;
+    margin: auto;
+}
+
+.footer-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-media {
+    margin: auto;
+}
+
+.footer-icon {
+    margin: 2px;
+}
