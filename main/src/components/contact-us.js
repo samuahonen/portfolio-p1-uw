@@ -30,10 +30,10 @@ const Forms = () => {
         if(validator.isEmail(email) && text.length>5){
             setEmail("")
             setText("")
-            setInfo([true,"alert2","Message Sucessfull"])
+            setInfo([true,"alert2","Message sent!"])
         }
         else{
-            setInfo([true,"alert1","Error"])
+            setInfo([true,"alert1","Email is invalid or message is too short!"])
         }
         console.log(info[1])
     }
